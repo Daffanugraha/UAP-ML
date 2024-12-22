@@ -8,3 +8,25 @@ Pada dataset akan diolah menggunakan 2 algoritma yaitu : Feedforward Neural Netw
 
 ## Random Forest architecture
 ![Random-forest-architecture-Breiman-2001](https://github.com/user-attachments/assets/3edef549-a281-4b08-a68c-5027e9f5ef74)
+
+## Modelling
+### Feedforward Neural Network
+#### Preprocessing
+Preprocessing data melibatkan beberapa langkah penting untuk menyiapkan dataset agar siap digunakan dalam model machine learning. Langkah pertama adalah pengecekan missing value, yang bertujuan untuk mengidentifikasi dan menangani data yang kosong. Setelah itu, dilakukan encoding label menggunakan LabelEncoder untuk mengubah data kategori menjadi numerik, sehingga model dapat memprosesnya. Selanjutnya, normalisasi dilakukan menggunakan MinMaxScaler, yang menskalakan data numerik ke rentang [0, 1], untuk menghindari bias akibat perbedaan skala antar fitur. Terakhir, data dibagi menjadi dua bagian, yaitu 80% untuk pelatihan dan 20% untuk pengujian.
+
+#### Layer yang digunakan untuk FFNN
+![Layer FFNN](https://github.com/user-attachments/assets/6f8c3ff0-8389-4a64-8dc9-8b417428d6ec)
+
+#### Kurva
+![Kurva](https://github.com/user-attachments/assets/f2e1466d-f0e7-4097-812d-b242d6e9a87c)
+
+#### Classification Report
+![Classification Report FFNN](https://github.com/user-attachments/assets/3d77f0bf-cb38-4d27-b132-5318391f2511)
+
+#### Confusion Matrix
+![Confusion Matrix](https://github.com/user-attachments/assets/9946505e-c584-453b-bb8e-e4bb7af98623)
+
+
+
+
+
