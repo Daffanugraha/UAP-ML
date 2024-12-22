@@ -26,7 +26,3 @@ Preprocessing data melibatkan beberapa langkah penting untuk menyiapkan dataset 
 #### Confusion Matrix
 ![Confusion Matrix](https://github.com/user-attachments/assets/9946505e-c584-453b-bb8e-e4bb7af98623)
 
-
-
-
-
