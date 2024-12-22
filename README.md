@@ -26,3 +26,14 @@ Preprocessing data melibatkan beberapa langkah penting untuk menyiapkan dataset 
 #### Confusion Matrix
 ![Confusion Matrix](https://github.com/user-attachments/assets/9946505e-c584-453b-bb8e-e4bb7af98623)
 
+### Random Forest
+#### Preprocessing
+Untuk Preprocessing sama seperti yang digunakan model Feedforward Neural Network. Melibatkan beberapa langkah penting untuk menyiapkan dataset agar siap digunakan dalam model machine learning. Langkah pertama adalah pengecekan missing value, yang bertujuan untuk mengidentifikasi dan menangani data yang kosong. Setelah itu, dilakukan encoding label menggunakan LabelEncoder untuk mengubah data kategori menjadi numerik, sehingga model dapat memprosesnya. Selanjutnya, normalisasi dilakukan menggunakan MinMaxScaler, yang menskalakan data numerik ke rentang [0, 1], untuk menghindari bias akibat perbedaan skala antar fitur. Terakhir, data dibagi menjadi dua bagian, yaitu 80% untuk pelatihan dan 20% untuk pengujian.
+
+#### Classification Report
+![image](https://github.com/user-attachments/assets/0cfcb5ac-1adc-4589-84a5-50b2ba1895d5)
+
+#### Confusion Matrix
+![image](https://github.com/user-attachments/assets/72a51c5b-0e38-4d61-8934-d7c50401b559)
+
+
